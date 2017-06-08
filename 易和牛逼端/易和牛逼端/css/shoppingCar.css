@@ -1,0 +1,151 @@
+.shopping_wrap{
+	width: 100%;
+}
+.shopping_cont{
+	width: 1180px;
+	border: 1px solid rgb(233,233,233);
+	margin: 20px auto;
+	padding: 40px;
+}
+.title_img{
+	padding-bottom: 40px;
+	border-bottom: 1px solid rgb(233,233,233);
+}
+.car_img{
+	margin-top: 40px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(233,233,233);
+}
+
+/*购物车里面的内容*/
+.car_table{
+	width: 100%;
+	margin-top: 20px;
+	border: 1px solid rgb(217,217,217);
+}
+.car_hand{
+	height: 36px;
+	background-color: rgb(242,242,242);
+}
+.car_hand span{
+	height: 36px;
+	line-height: 36px;
+}
+.car_left{
+	text-align: left;
+}
+span{
+	display: inline-block;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.th_one{
+	width: 4%;
+}
+.th_two{
+	width: 15%;
+	
+}
+.th_three{
+	width: 10%;
+	
+}
+.th_four{
+	width: 15%;
+	
+}
+.th_five{
+	width: 10%;
+	
+}
+.th_six{
+	width: 10%;
+}
+.th_sev{
+	width: 33%;
+}
+.sp_li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(217,217,217);
+}
+.car_num input{
+	width: 40px;
+	text-align: center;
+	border: 1px solid rgb(212,212,212);
+}
+.car_num span{
+	display: inline-block;
+	width: 23px;
+	border: 1px solid rgb(212,212,212);
+	background-color: rgb(242,242,242);
+	cursor: pointer;
+}
+.delet{
+	color: rgb(0,156,225);
+	cursor: pointer;
+}
+.delet:hover{
+	color: rgb(255,111,39);
+}
+.car_num span:hover{
+	border: 1px solid rgb(255,111,39);
+	color: rgb(255,111,39);
+}
+.car_jine{
+	font-size: 16px;
+}
+.car_maney{
+	color: rgb(255,111,39);
+	font-size: 17px;
+}
+.car_foot{
+	position: relative;
+	/*border: 1px solid red;*/
+	margin-top: 44px;
+	margin-bottom: 15px;
+}
+.all_check,.check_del{
+	color: rgb(1,131,196);
+	cursor: pointer;
+}
+.check_del:hover{
+	color: rgb(244,107,73);
+}
+.all_check:hover{
+	color: rgb(244,107,73);
+}
+.check_del{
+	position: absolute;
+	top: 0;
+	left: 120px;
+}
+.spJE{
+	display: inline-block;
+	width: 320px;
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-left: 760px;
+	padding: 20px;
+}
+.spZongJi{
+	position: absolute;
+	top: 0px;
+	left: 658px;
+}
+.goBuyBtn{
+	position: absolute;
+	top: -10px;
+	right: 0;
+	width: 170px;
+	height: 45px;
+	font-size: 18px;
+	background-color: rgb(236,107,23);
+	color: white;
+	border-radius: 5px;
+}
+.money_color{
+	color: rgb(244,107,73);
+	font-size: 20px;
+}

@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(242,242,242);
+}
+.wrap_jifen{
+	width: 1180px;
+	margin: 20px auto;
+	position: relative;
+}
+.wrap_jifen>ul{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	flex-wrap: wrap;
+}
+.wrap_jifen>ul>li{
+	width: 220px;
+	border: 1px solid rgb(201,201,201);
+	margin-bottom: 20px;
+	cursor: pointer;
+	background-color: rgb(255,255,255);
+}
+.wrap_jifen>ul>li:hover{
+	animation: bounceIn 0.5s;
+}
+.jieshao{
+	/*首行缩进2字符*/
+	/*超过两行省略号显示*/
+	overflow: hidden;
+	/*text-overflow 属性规定当文本溢出包含元素时发生的事情。*/
+	text-overflow: ellipsis;
+ 	display: -webkit-box;
+ 	padding: 0 5px ;
+ 	/*规定的行数*/
+ 	-webkit-line-clamp:2;
+ 	-webkit-box-orient: vertical;
+ 	margin: 10px 0;
+ 	color: rgb(83,83,83);
+}
+.price{
+	padding: 0 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.price1{
+	color: rgb(225,0,7);
+}
+.price2{
+	color: rgb(50,50,50);
+	font-size: 14px;
+}
+.collect{
+	color: rgb(229,84,19);
+	border: 1px solid rgb(229,84,19);
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px;
+	margin: 20px 70px;
+}
+
+/************弹出框部分*******************/
+.jifenAlert{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.jifenA1_top{
+	height: 60px;
+	color: rgb(34,120,218);
+	line-height: 60px;
+	border-bottom:1px solid rgb(228,228,228) ;
+	padding-left: 20px;
+}
+.jifenA1{
+	width: 675px;
+	height: 405px;
+	border: 2px solid rgb(219,219,219);
+	background-color: rgb(255,255,255);
+	position: fixed;
+	top: 28%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.jifenA1>div{
+	display: flex;
+	margin-top: 20px;
+}
+.inp1{
+	width: 330px;
+	height: 35px;
+	margin-left: 20px;
+}
+.inp1 input,.inp2 input,.div_1 input,.div_2 input,.div_3 input{
+	border: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+	border: 1px solid rgb(211,211,211);
+	outline: none;
+}
+.jifenA1 div > p{
+	text-align: right;
+	width: 125px;
+	height: 35px;
+	line-height: 35px;
+}
+.XiangXidizhi div{
+	width: 465px;
+	height: 35px;
+	margin-left:20px;
+}
+sup{
+	color: rgb(230,93,29);
+}
+.div_1{
+	width: 150px;
+	height: 35px;
+	margin:0 20px 0 20px;
+}
+.div_2{
+	width: 50px;
+	height: 35px;
+	margin:0 15px;
+}
+.div_3{
+	width: 125px;
+	height: 35px;
+	margin-left: 10px;
+}
+.dianhuaNUm{
+	height: 35px;
+	line-height: 35px;
+}
+.form-inline{
+	margin-left: 20px;
+}
+.sr-only{
+	margin-right: 20px;
+}
+.btn1{
+	width: 90px;
+	height: 35px;
+	border-radius: 5px;
+	border: 0;
+	color: rgb(255,255,255);
+	position: absolute;
+	bottom: 30px;
+	left: 170px;
+}
+.btn2{
+	width: 90px;
+	height: 35px;
+	border-radius: 5px;
+	border: 0;
+	background-color: rgb(229,84,19);
+	color: rgb(255,255,255);
+	position: absolute;
+	bottom: 30px;
+	left: 395px;
+}

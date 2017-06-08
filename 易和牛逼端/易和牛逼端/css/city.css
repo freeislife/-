@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.wrap{
+	width: 100%;
+	background-color: rgb(238,238,238);
+}
+#nowCity{
+	color: rgb(245,117,55);
+	margin-left: 10px;
+}
+.hotCity a,.offenCity a{
+	color: rgb(103,103,103);
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.qiehuan,.shouye{
+	color: rgb(103,103,103);
+}
+.city{
+	background-color: white;
+	width: 1180px;
+	margin: 0 auto;
+	border: 1px solid rgb(224,224,224);
+}
+.current_location{
+	width: 1180px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.city_list p{
+	border-bottom: 1px solid rgb(224,224,224);
+	padding: 15px;
+}
+.anpy{
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.city_list_menu{
+	margin-top: 30px;
+	margin: 15px;
+}
+.city_list_menu li{
+	/*margin-bottom: 20px;*/
+}
+.clearfix{
+	display: flex;
+	flex-wrap: wrap;
+}
+.clearfix span{
+	display: inline-block;
+	width: 53px;
+	height: 53px;
+	text-align: center;
+	line-height: 55px;
+	background-color: white;
+	/*color: white;*/
+	font-size: 25px;
+	border: 1px solid rgb(228,228,228);
+}
+.li_ul{
+	/*height: 55px;*/
+	width: 1090px;
+	line-height: 45px;
+	margin-bottom: 20px;
+	/*border: 1px solid red;*/
+}
+.li_ul li>a{
+	padding-left: 20px;
+	color: rgb(103,103,103);
+	font-size: 14px;
+}
+.li_ul li>a:hover{
+	color: rgb(245,117,55);
+}
+.li_ul:hover{
+	background-color: rgb(240,240,240);
+}

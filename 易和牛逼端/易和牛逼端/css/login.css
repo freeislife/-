@@ -1,0 +1,63 @@
+.rel_bg_img{
+	width: 1920px;
+	height: 574px;
+}
+.rel_content{
+	height: 494px;
+}
+.rel_check{
+	padding: 0;
+	height: 30px;
+	/*border: 1px solid red;*/
+}
+.rel_check a{
+	color: rgb(247,136,78);
+	float: right;
+}
+.rel_check a:hover{
+	color: rgb(247,136,78);
+}
+.login_choose{
+	height: 44px;
+}
+.login_title{
+	font-size: 25px;
+	color: rgb(102,102,102);
+}
+.login_choose_span{
+	color: rgb(0,159,226);
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+	/*border: 1px solid red;*/
+}
+.rel_zuihou{
+	margin-top: 10px;
+}
+
+.tiaozhuan_cont{
+	position: fixed;
+	top: 30%;
+	left: 34%;
+	background-color: rgba(0,0,0,0.8);
+	width: 600px;
+	text-align: center;
+	padding: 30px;
+	border-radius: 30px;
+	transform: scale(0,0);
+}
+.tiaozhuan_title{
+	font-size: 30px;
+	color: dimgray;
+	position: relative;
+	top: 8px;
+	color: rgb(241,241,241);
+}
+.tiaozhuan_time{
+	color: rgb(244,107,43);
+}
+.tiaozhuan_title a:hover{
+	text-decoration: underline;
+	color: rgb(244,107,43);
+}
+

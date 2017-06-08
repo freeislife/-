@@ -1,0 +1,27 @@
+.search_wrap{
+	background-color: rgb(242,242,242);
+	height: 600px;
+}
+.search_cont{
+	width: 320px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 220px;
+}
+.search_cont span{
+	position: absolute;
+	top: 230px;
+	right: 0;
+	color: rgb(110,110,110);
+	font-size: 18px;
+}
+.search_cont button{
+	position: absolute;
+	top: 290px;
+	right: 0;
+	color: white;
+	background-color: rgb(244,107,44);
+	width: 170px;
+	height: 45px;
+	border-radius: 5px;
+}

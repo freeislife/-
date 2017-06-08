@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(242,242,242);
+}
+button{
+	outline: none;
+}
+.center{
+	width: 1180px;
+	height: 650px;
+	margin: 0 auto;
+	font-size: 20px;
+	overflow: hidden;
+	padding: 90px 0 100px 0;
+}
+.center button{
+	background-color: rgb(244,107,43);
+	border: none;
+	width: 170px;
+	height: 45px;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	
+}
+.center p{
+	margin-bottom: 30px;
+	color: rgb(153,153,153);
+}
+.div00,.div0{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	border-radius: 50%;
+	text-align: center;
+}
+.div00{
+	float: left;
+	border: 1px solid rgb(244,107,43);
+}
+.div0{
+	float: right;
+	border: 1px solid rgb(0,140,221);
+}
+.div00 p:nth-child(1),.div0 p:nth-child(1){
+	font-size: 35px;
+	color: rgb(250,90,43);
+	margin-top: 40px;
+}
+.div00 p:nth-child(2),.div0 p:nth-child(2){
+	font-size: 25px;
+	color: black;
+}
+.divs{
+	background-color: rgb(153,153,153);
+	width: 1px;
+	height: 400px;
+	float: left;
+	margin-left: 190px;
+}
+
+/*副页面*/
+.fu{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	text-align: center;
+	display: none;
+}
+.fu_content{
+	margin: 200px auto;
+	border: 5px solid rgb(226,226,226);
+	width: 655px;
+	height: 440px;
+	background-color: white;
+}
+.fu_center1{
+	margin: 40px;
+	width: 573px;
+	height: 235px;
+	border: 1px solid rgb(153,153,153);
+	overflow: hidden;
+	position: relative;
+}
+.fu_center1 p{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: rgb(153,153,153);
+	font-weight: bold;
+}
+.wenzi{
+	width: 573px;
+	height: 235px;
+	border: none;
+	font-size: 30px;
+	overflow: scroll;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+textarea{
+	outline: none;
+	resize: none;
+	padding: 20px;
+}
+.fu_content button{
+	background-color: rgb(244,107,43);
+	border: none;
+	width: 90px;
+	height: 35px;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+}
+

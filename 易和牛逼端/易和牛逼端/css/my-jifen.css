@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(242,242,242);
+}
+.leftCon li:nth-child(4) a{
+	/*border: 1px solid red;*/
+	text-decoration: underline;
+	color: rgb(230,91,27);
+}
+.wrap_jifen{
+	width: 1180px;
+	height: 900px;
+	margin: 20px auto;
+	position: relative;
+}
+.JFright{
+	width: 985px;
+	background-color:rgb(255,255,255);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.JFright>p{
+	color: rgb(34,120,218);
+	height: 53px;
+	border-bottom:1px solid rgb(211,211,211) ;
+	line-height: 50px;
+	padding-left: 20px;
+}
+.JFright_div1{
+	overflow: hidden;
+}
+.JFright_div1 p:last-child{
+	float: right;
+	margin-right: 30px;
+	color: rgb(34,120,218);
+}
+.JFright_div1 p:last-child a{
+	cursor: pointer;
+	color: rgb(34,120,218);
+}
+.JFright_div1>p {
+	display: inline-block;
+	padding:20px 0 20px 30px;
+	font-size: 18px;
+	color: rgb(38,38,38);
+	margin-right: 60px;
+}
+.JFright_div1 span{
+	color: rgb(229,84,19);
+}
+.JFright_div2{
+	width: 925px;
+	margin:0 0 30px 30px;
+	border: 1px solid rgb(201,201,201);
+}
+
+tr{
+	border-bottom: 1px solid rgb(201,201,201);
+}
+th{
+	padding: 0 20px;
+	height: 35px;
+	background-color: rgb(239,239,239);
+	color: rgb(38,38,38);
+	width: 315px;
+}
+td{
+	text-align: center;
+	color: rgb(83,83,83);
+	height: 45px;
+	width: 315px;
+}
+td:first-child{
+	text-align: left;
+	padding-left: 20px;
+}
+th:first-child{
+	text-align: left;
+	padding-left: 50px;
+}
+.ttr1:hover{
+	animation: pulse 0.5s;
+	background-color: rgb(253,240,231);
+}

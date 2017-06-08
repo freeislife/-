@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap_tejia{
+	width: 1180px;
+	margin: 20px auto;
+}
+.tejia_top{
+	position: relative;
+}
+.tejia_top1>span:first-child,.tejia_con1>span:first-child{
+	color: rgb(242,186,11);
+	font-size: 30px;
+}
+.tejia_top1>span:nth-child(2),.tejia_con1>span:nth-child(2){
+	color: rgb(34,120,218);
+	font-size: 30px;
+	padding-right: 20px;
+}
+.tejia_top1>span:last-child,.tejia_con1>span:last-child{
+	color: rgb(38,38,38);
+}
+.lunbo{
+	width: 1180px;
+	height: 390px;
+	position: relative;
+	margin: 30px 0;
+	overflow: hidden;
+}
+.tejia_top2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+
+}
+.tejia_top2 >li{
+	width: 280px;
+	float: left;
+	margin-right:20px ;
+	background-color: rgb(255,255,255);
+	padding-bottom: 20px;
+}
+.li1:hover{
+	border: 1px solid red;
+	animation: pulse 0.5s;
+}
+.tejia_top2 >li>p{
+	padding: 20px 10px;
+}
+.tejia_top2 >li:first-child{
+	margin-left: 0;
+}
+.price_1{
+	padding: 20px 10px;
+	color: rgb(225,0,7);
+}
+.price_2{
+	color: rgb(83,83,83);
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.zuo_img1{
+	position: absolute;
+	top: 140px;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.you_img2{
+	position: absolute;
+	top: 140px;
+	right: 0;
+	transform: translateY(-50%);
+}
+.tejia_con2{
+	width:100%;
+	display: flex;
+	list-style-type: none;
+	flex-wrap: wrap;
+	/*background-color:rgb(242,242,242) ;*/
+}
+.tejia_con2>li{
+	
+	width: 220px;
+	border: 1px solid rgb(201,201,201);
+	margin: 20px 17.5px 20px 0;
+	cursor: pointer;
+	background-color: rgb(255,255,255);
+}
+.tejia_top2 li img:hover{
+	animation: pulse 0.5s;
+}
+.tejia_con2>li:last-child{
+	margin-right: 0;
+}
+.jieshao{
+	/*首行缩进2字符*/
+	/*text-indent:2em;*/
+	/*超过两行省略号显示*/
+	overflow: hidden;
+	/*text-overflow 属性规定当文本溢出包含元素时发生的事情。*/
+	text-overflow: ellipsis;
+ 	display: -webkit-box;
+ 	/*规定的行数*/
+ 	-webkit-line-clamp:2;
+ 	-webkit-box-orient: vertical;
+ 	color: rgb(83,83,83);
+ 	margin: 20px 0;
+ 	padding: 0 10px;
+}
+.price{
+	padding: 0 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.price1{
+	color: rgb(225,0,7);
+}
+.price2{
+	color: rgb(50,50,50);
+	font-size: 14px;
+	text-decoration: line-through;
+	padding-bottom: 20px;
+}

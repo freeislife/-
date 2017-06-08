@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(242,242,242);
+}
+.leftCon li:nth-child(2) a{
+	/*border: 1px solid red;*/
+	text-decoration: underline;
+	color: rgb(230,91,27);
+}
+.wrap_account{
+	width: 1180px;
+	height: 700px;
+	margin: 20px auto;
+	position: relative;
+}
+.rightCon{
+	width:985px;
+	float:right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.div__1{
+	height: 140px;
+	border: 1px solid rgb(211,211,211);
+	background-color: rgb(255,244,236);
+	position: relative;
+	overflow: hidden;
+	
+}
+.div__1 img{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+.div__1 p{
+	position: absolute;
+	top:60px;
+	left:140px;
+	color: rgb(102,102,102);
+}
+.div__1 table{
+	position: absolute;
+	top: 20px;
+	left:415px;
+	color: rgb(102,102,102);
+}
+.zitiColor{
+	color: rgb(236,106,23);
+}
+.div__1 table td{
+	width: 175px;
+	text-align: center;
+	padding: 15px 0;
+}
+.div__2{
+	height: 210px;
+	margin-bottom: 20px;
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(211,211,211);
+	padding-left: 20px;
+}
+.div__2 p{
+	color: rgb(102,102,102);
+	margin-top: 40px;
+}
+.div__2 p span{
+	font-size: 20px;
+}
+.ul1{
+	width: 900px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	text-align: center;
+	color: rgb(255,255,255);
+	line-height: 30px;
+	padding-left: 20px;
+}
+.round{
+	 width: 30px;
+	 height: 30px;
+	 border-radius: 50%;
+	 background-color: rgb(211,211,211);
+}
+.li_active{
+	background-color: rgb(236,106,23);
+}
+.square1{
+	width: 95px;
+	height: 5px;
+	background-color:rgb(236,106,23);
+	margin-top: 12.5px;
+}
+.square2{
+	width: 95px;
+	height: 5px;
+	margin-top: -3px;
+}
+.teshu1{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	background-color:rgb(236,106,23);
+}
+.teshu2{
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+	background-color:rgb(211,211,211);
+}
+.square{
+	width: 95px;
+	height: 5px;
+	background-color: rgb(211,211,211);
+	margin-top: 12.5px;
+}
+.ul2{
+	width: 930px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	list-style-type: none;
+	padding-left: 10px;
+	color: rgb(102,102,102);
+}
+.div__3{
+	border: 1px solid rgb(211,211,211);
+	
+	background-color: rgb(211,211,211);
+}
+.div__3 img{
+	height: 275px;
+	margin-top: 20px;
+}

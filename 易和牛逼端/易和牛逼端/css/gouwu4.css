@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-weight: 200;
+}
+button{
+outline:none;
+}
+.wrap{
+	width: 1180px;
+	margin: 0 auto;
+	border: 1px solid rgb(213,213,213);
+	padding-top: 29px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.wrap1{
+	width: 1100px;
+	margin: 0 auto;
+}
+.headY{
+	padding-bottom: 41px;
+	border-bottom: 1px solid rgb(213,213,213);
+	overflow: hidden;
+	margin-top: 40px;
+}
+.wrap1_left{
+	 float: left;
+}
+.wrap1_right{
+	float: right;
+	margin-bottom:0 ;
+	margin-top: 38px;
+}
+.content{
+	text-align: center;
+}
+.content img{
+	margin: 80px 0 40px 0;
+}
+.content p{
+	font-size: 35px;
+	color: rgb(102,102,102);
+}
+.content button{
+	background-color: rgb(244,107,43);
+	border: none;
+	width: 170px;
+	height: 45px;
+	border-radius: 5px;
+	color: white;
+	font-size: 13px;
+	margin: 40px 0 80px 0;
+}

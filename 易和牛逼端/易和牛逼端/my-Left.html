@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的左边栏部分</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding:0;
+			}
+			.wrap_left{
+				margin: 0 auto;
+				width: 1180px;
+				position: relative;
+			}
+			/*左边部分*/
+			.leftCon{
+				background-color: rgb(255,255,255);
+				width: 175px;
+				border: 1px solid rgb(211,211,211);
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.leftCon_top{
+				padding: 0 0 20px 20px;
+				border-bottom: 1px solid rgb(201,201,201);
+			}
+			.leftCon_top span{
+				text-align: center;
+			}
+			.leftCon_top img{
+				margin-top: 10px;
+				vertical-align: bottom;
+			}
+			.leftCon li{
+				list-style: none;
+				padding-left: 20px;
+			}
+			.leftCon_liHead{
+				font-size:18px ;
+				color:rgb(77,77,77);
+			}
+			.leftCon ul{
+				padding-bottom: 10px;
+			}
+			.leftCon ul li{
+				margin-top: 20px;
+			/*	border: 1px solid red;*/
+				
+			}
+			.leftCon ul li	a{
+				text-decoration: none;
+				color: rgb(118,118,118);
+				cursor: pointer;
+			}
+			.leftCon ul li	a:hover{
+				text-decoration: underline;
+				color: rgb(220,84,0);
+			}
+			.kong{
+				display: inline-block;
+				width: 45px;
+			}
+			
+		</style>
+	</head>
+	<body>
+<!--		<div class="wrap_left">-->
+			<div class="leftCon" >
+				<div class="leftCon_top">
+				    <img src="img/head1.png"/>
+				    <span>个人中心</span>
+				</div>
+			<!--下边内容部分-->
+			<!--交易管理-->
+				<ul>
+					<li class="leftCon_liHead" >交易管理<div class="kong" ></div> ></li>
+					<li><a href="my-account.html"   >我的账户</a></li>
+					<li><a href="my-order.html"  >我的订单</a></li>
+					<li><a href="my-jifen.html"  >我的积分</a></li>
+					<li><a href="accountChongZhi.html" >我的易和券</a></li>
+					<li class="leftCon_liHead">会员资料 <div class="kong" ></div> ></li>
+					<li><a href="geren-ziliao.html" >个人资料</a></li>
+					<li><a href="DiZHIguanli.html" >地址管理</a></li>
+					<li><a href="my-collect.html" >我的收藏</a></li>
+					<li><a href="zuijinliulan.html" >最近浏览</a></li>
+					<li><a href="xiugaiMIMA.html" >修改密码</a></li>
+					<li class="leftCon_liHead">站内信 <div class="kong" style="width: 60px;" ></div> ></li>
+					<li><a href="my-message.html" >我的消息</a></li>
+				</ul>
+		</div>
+	</body>
+	<script src="js/jQuery.min.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script type="text/javascript">
+		$('.aaa').each(function (i) {
+			alert(i);
+			$(this).click(function () {
+				alert($(this));
+				$(this).css({
+					textDecoration:'underline',
+					color:"rgb(230,91,27)"
+				})
+			})
+		})
+	</script>-->
+</html>

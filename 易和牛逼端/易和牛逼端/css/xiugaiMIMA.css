@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.leftCon li:nth-child(11) a{
+	/*border: 1px solid red;*/
+	text-decoration: underline;
+	color: rgb(230,91,27);
+}
+.wrap_xiuGaiMiMa{
+	width: 1180px;
+	height: 650px;
+	margin: 20px auto;
+	position: relative;
+	
+}
+.xiugai_R{
+	background-color: white;
+	width: 985px;
+	height: 540px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 1px solid rgb(201,201,201);
+	
+}
+.xiugai_R>p	{
+	padding: 16px 0 17px 20px ;
+	color: rgb(70,162,230);
+	border-bottom: 1px solid rgb(211,211,211);
+}
+
+.rel_content{
+	background-color: white;
+	width: 347px;
+	position: absolute;
+	top: 85px;
+	padding-left: 40px;
+}
+.rel_cont_ul{
+	/*border: 1px solid red;*/
+}
+.rel_li1{
+	/*border: 1px solid black;*/
+	height: 44px;
+	font-size: 14px;
+}
+.rel_inp{
+	font-size: 15px;
+	width: 94%;
+}
+.rel_tishi{
+	/*border: 1px solid yellow;*/
+	height: 30px;
+	font-size: 12px;
+	/*padding-top: 7px;*/
+}
+.rel_yanz_span{
+	text-align: center;
+	line-height: 28px;
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	margin-left: 15px;
+	border: 1px solid rgb(218,218,218);
+	background-color: rgb(249,249,249);
+}
+.rel_yanzhengma{
+	display: inline-block;
+	/*padding: 12px;*/
+	height: 44px;
+	font-size: 15px;
+	width: 125px;
+}
+.rel_yanzhengma input{
+	width: 83%;
+	/*padding: 6px;*/
+	/*background-color: rgb(249,249,249);*/
+}
+.rel_li1,.rel_yanzhengma{
+	border: 1px solid rgb(218,218,218);
+	background-color: rgb(249,249,249);
+}
+#rel_kanbuq{
+	color: rgb(247,136,78);
+	cursor: pointer;
+}
+.rel_phoneyanzhen{
+	position: relative;
+}
+#rel_huoqu{
+	display: inline-block;
+	background-color: rgb(0,140,221);
+	width: 100px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 14px;
+	padding: 0;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	color: white;
+	border-radius: 0;
+}
+
+button{
+	outline: none;
+}
+.rel_yesOrNo{
+	color: rgb(227,39,55);
+}
+.rel_tishi{
+	visibility: hidden;
+}
+.rel_li1 img,.rel_yanzhengma img{
+	display: none;
+}
+li{
+	list-style: none;
+}
+.rel_btns button{
+	background-color: rgb(244,107,43);
+	border: none;
+	width: 170px;
+	height: 45px;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+}
+.rel_cont_ul input{
+	background-color: rgb(249,249,249);
+	height: 42px;
+	border: none;
+	padding-left: 10px;
+	outline: none;
+}
+.tiaozhuan_cont{
+	position: fixed;
+	top: 38%;
+	left: 34%;
+	background-color: rgba(0,0,0,0.7);
+	width: 560px;
+	text-align: center;
+	padding: 60px;
+	border-radius: 30px;
+	transform: scale(0,0);
+}
+.tiaozhuan_title{
+	font-size: 30px;
+	color: dimgray;
+	position: relative;
+	top: 8px;
+	color: rgb(241,241,241);
+}
+.tiaozhuan_time{
+	color: rgb(244,107,43);
+}
+.tiaozhuan_title a:hover{
+	text-decoration: underline;
+	color: rgb(244,107,43);
+}
+

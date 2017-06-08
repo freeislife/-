@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#area{
+	display: none;
+}
+body {
+	background-color: rgb(242, 242, 242);
+}
+.wrap_head {
+	width: 1180px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 50px;
+	color: rgb(50,80,100);
+}
+
+.wrap_head a {
+	text-decoration: none;
+	color: rgb(50,80,100);
+}
+
+.wrap_head span {
+	margin-right: 5px;
+}
+
+.wrap_head span:nth-child(3) {
+	color: rgb(243, 115, 43);
+}
+#wrap{
+	width: 1180px;
+	margin: 0 auto;
+	
+}
+.wrap1{
+	width: 1180px;
+	background-color: white;
+	height: 300px;
+	border: 1px solid rgb(211,211,211);
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.wrap1_left{
+	width: 400px;
+	height: 300px;
+	padding: 20px;
+	float: left;
+	position: relative;
+}
+#small{
+	width: 360px;
+	height: 200px;
+	position: relative;
+}
+#small img{
+	width: 360px;
+	height: 200px;
+}
+#area{
+	width: 180px;
+	height: 100px;
+	position: absolute;
+	left: 180;
+	top: 0;
+	background-color: rgba(255,255,255,0.4);
+	/*display: none;*/
+}
+#big{
+	width: 360px;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	top: 20px;
+	left: 390px;
+	display: none;
+}
+#big img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 720px;
+	height: 400px;
+}
+.xiaxiao{
+	background-color: rgb(242,242,242);
+	width: 360px;
+	height: 60px;
+}
+.zuo,.you{
+	margin: 18px 3px;
+}
+.zuo{
+	float: left;
+}
+.aa{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.xiao{
+	width: 320px;
+	height: 60px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	/*border: 1px solid blue;*/ 
+}
+.xiao div{
+	width: 500px;
+}
+.xiao img{
+	float: left;
+	margin: 10px 4px;
+	width: 72px;
+	height: 40px;
+}
+.wrap1_center{
+	font-size: 12px;
+	padding: 20px 3px;
+	width: 464px;
+	height: 300px;
+	float: left;
+    	color: rgb(50,80,100);
+    	overflow: hidden;
+}
+.lianx{
+	margin: 10px 0 0 0; 
+	border-bottom: 1px solid rgb(211,211,211);
+}
+.lianx p{
+	font-size: 14px;
+	/*margin: 10px 0;*/
+	line-height: 20px;
+}
+.lianx img{
+	margin-right: 10px;
+}
+.wrap1_right{
+	width: 295px;
+	height: 300px;
+	float: right;
+	color: rgb(50,80,100);
+}
+.p1,.p2,.p3{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.p1 span{
+	font-size: 13px;
+	font-weight: initial;
+}
+.p2 img{
+	margin: 0 10px;
+}
+.img8{
+	margin: 10px;
+}
+.p3{
+	margin: 15px 0;
+	height: 40px;
+}
+.p3 img{
+	margin: -5px 20px;
+	height: 30px;
+}

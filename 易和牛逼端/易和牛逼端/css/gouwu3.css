@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-weight: 200;
+}
+button{
+outline:none;
+}
+.wrap{
+	width: 1180px;
+	margin: 0 auto;
+	border: 1px solid rgb(213,213,213);
+	padding-top: 29px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.wrap1{
+	width: 1100px;
+	margin: 0 auto;
+}
+.headL{
+	padding-bottom: 41px;
+	border-bottom: 1px solid rgb(213,213,213);
+	overflow: hidden;
+	/*margin-top: 40px;*/
+}
+.wrap1_left{
+	 float: left;
+}
+.wrap1_right{
+	float: right;
+	margin-bottom:0 ;
+	margin-top: 38px;
+}
+.content{
+	text-align: center;
+}
+.content img{
+	margin-top: 80px;
+}
+.content p{
+	margin: 60px 0 80px 0;
+	font-size: 25px;
+	color: rgb(80,100,80);
+}
+.JTDZ1_left{
+	float: left;
+}
+.JTDZ1{
+	height: 38px;
+	background-color: rgb(255,243,236);
+	font-size: 15px;
+	line-height: 38px;
+	margin-top: 20px;
+	border: 1px solid rgb(211,211,211);
+	color: rgb(102,102,102);
+	margin-bottom: 40px;
+}
+.JTDZ1 img{
+	margin-left: 10px;
+}
+.JTDZ1 span{
+	margin-left: 8px;
+}
+.JTDZ_bot{
+	width: 100%;
+	font-size: 20px;
+	color: rgb(120,120,130);
+	overflow: hidden;
+	margin-bottom: 45px;
+}
+.p1{
+	float: left;
+}
+.p1 span{
+	font-size: 25px; 
+	color: rgb(255,125,38);
+	margin: 0 10px;
+}
+.p2{
+	float: right;
+	font-size: 15px;
+}
+.p3{
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: rgb(120,120,130);
+}
+.ZFTP{
+	border-top: 1px solid rgb(233,233,233);
+	padding-top: 40px;
+	height: 120px;
+	overflow: hidden;
+}
+.ZFTP div{
+	float: left;
+	margin-right: 38px;
+}
+
+.ZFTP div img:nth-child(2){
+	padding: 7px 12px;
+	border: 1px solid rgb(218,218,218);
+}
+.IMGS{
+	margin-right: 10px;
+}
+.ZFFF{
+	border: 1px solid rgb(211,211,211);
+	font-size: 18px;
+	color: rgb(120,120,130);
+	overflow: hidden;
+}
+.ZFFF1{
+	width: 550px;
+	float: left;
+	padding-left: 210px;
+	padding-bottom: 60px;
+}
+.ZFFF1 span{
+	float: right;
+	margin-top: -160px;
+}
+.ZFFF1 p{
+	margin: 60px 0 40px 0;
+}
+.ZFFF1 button{
+	background-color: rgb(244,107,43);
+	border: none;
+	width: 170px;
+	height: 45px;
+	border-radius: 5px;
+	margin-top: 40px;
+	color: white;
+}
+.ZFFF2{
+	float: right;
+	margin-right: 200px;
+}
+.ZFFF2 p{
+	margin: 60px 0 40px 0;
+}
+.ZFFFS{
+	border: 1px solid rgb(211,211,211);
+	font-size: 18px;
+	color: rgb(120,120,130);
+	overflow: hidden;
+	margin: 40px 0;
+}
+.ZFFF3{
+	margin-top: 60px;
+	float: left;
+	width: 550px;
+	padding-left: 150px;
+	border-right: 1px solid rgb(211,211,211);
+	margin-bottom: 60px;
+}
+.ZFFF4 p{
+	margin: 60px 0 40px 0;
+}
+.ZFFF4{
+	float: right;
+	margin-right: 200px;
+}
+.fu{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: none;
+}
+.fu_content{
+	margin: 200px auto;
+	border: 5px solid rgb(226,226,226);
+	width: 655px;
+	height: 440px;
+	background-color: white;
+}
+.fu_content p{
+	font-size: 16px;
+	color: white;
+	
+}
+.fu_content button{
+	background-color: rgb(244,107,43);
+	border: none;
+	width: 170px;
+	height: 70px;
+	border-radius: 5px;
+	color: white;
+	font-size: 13px;
+	margin: 30px;
+}
+

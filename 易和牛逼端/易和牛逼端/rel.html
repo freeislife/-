@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>注册!</title>
+		<link rel="stylesheet" type="text/css" href="css/toubu.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/rel.css"/>
+		<style type="text/css">
+			.login,.rel{
+				display: inline-block;
+				text-decoration: none;
+				color: rgb(106,106,106);
+				font-size: 14px;
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+			.login{
+				border-right: 2px solid rgb(106,106,106);
+			}
+			a:hover{
+				text-decoration: none;
+				color: rgb(106,106,106);
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<!--开头大家都一样部分-->
+		<div class="qianm">
+			<!--头部灰色部分导航-->
+			<div class="head">
+				<div class="head_con">
+					<!--左边所在城市-->
+					<div class="head_left"><span>所在城市 :</span><span class="city"></span><img style="margin-left: 5px;" src="img/gg/jiantou.png"/></div>
+					<!--右边导航部分-->
+					<div class="head_right">
+						<ul>
+							<li>
+								<a href="welcome.html">欢迎光临易和生活港</a>
+							</li>
+							<li>
+								<a href="">我是商家</a>
+							</li>
+							<li>
+								<a style="border-color: transparent;" href=""><img style="padding-right: 2px;" src="img/gg/dh.png" />400-800-8820</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--搜索框部分-->
+			<div class="search">
+				<!--左侧-->
+				<div class="search_left">
+					<a href="index.html"><img src="img/gg/SLelt.png" /></a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--内容部分-->
+		<div class="rel_wrap">
+			<img class="rel_bg_img" src="img/relbg.png"/>
+			<!--注册框-->
+			<div class="rel_content">
+				<ul class="rel_cont_ul">
+					<!--手机号-->
+					<li class="rel_li1">
+						<input class="rel_inp" type="text" id="tel" placeholder="请输入手机号" />
+						<img src="img/check .png"/>
+					</li>
+					<div class="rel_tishi">
+						<img src="img/alert.png"/>
+						<span id="noPhone" class="rel_yesOrNo">手机号码不正确,请重新输入</span>
+					</div>
+					
+					<!--密码-->
+					<li class="rel_li1">
+						<input class="rel_inp" type="password" id="psd" placeholder="请输入密码(6-20位数字字母)" />
+						<img src="img/check .png"/>
+					</li>
+					<div class="rel_tishi">
+						<img src="img/alert.png"/>
+						<span id="yesOrNoPsd" class="rel_yesOrNo">密码不正确,请重新输入</span>
+					</div>
+					
+					<!--确认密码-->
+					<li class="rel_li1">
+						<input class="rel_inp" type="password" id="psdAggin" placeholder="请再次确认密码" />
+						<img src="img/check .png"/>
+					</li>
+					<div class="rel_tishi">
+						<img src="img/alert.png"/>
+						<span id="again" class="rel_yesOrNo">两次密码输入不一致,请确认</span>
+					</div>
+					
+					<!--验证码-->
+					<li class="rel_yanzhengma">
+						<input type="text" id="code" placeholder="验证码" />
+						<img src="img/check .png"/>
+					</li>
+					<span class="rel_yanz_span">
+						  
+					</span>
+					<span id="rel_kanbuq">
+						看不清 换一张
+					</span>
+					<div class="rel_tishi">
+						<img src="img/alert.png"/>
+						<span id="yanzhengma" class="rel_yesOrNo">验证码错误</span>
+					</div>
+					
+					<!--手机验证码-->
+					<li class="rel_li1 rel_phoneyanzhen">
+						<input type="text" id="phoneCode" placeholder="手机验证码" />
+						<button id="rel_huoqu" class="btn btn-lg btn-primary" >获取验证码</button>
+					</li>
+					<div class="rel_tishi">
+						<img src="img/alert.png"/>
+						<span id="rel_phone_yz" class="rel_yesOrNo">手机验证码错误,请重试</span>
+					</div>
+					
+					<li class="rel_li1 rel_check">
+						<input type="checkbox" id="check" />
+						 我已阅读并同意《易和用户使用协议》
+					</li>
+					
+					<!--注册登录按钮-->
+					<li class="rel_btns">
+						<button id="relBtn" class="btn btn-danger" disabled="disabled">注册</button>
+						<button id="loginBtn" class="btn btn-danger">会员登录</button>
+					</li>
+					<!--合作网站登录-->
+					<li class="rgl_foot">
+						 - - - - - - - - - - - 合作网站登录 - - - - - - - - - - - 
+					</li>
+					<li class="rel_zuihou">
+						<img src="img/wx.png"/>
+						<img src="img/qq.png"/>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--注册成功-->
+		<div class="tiaozhuan_cont">
+			<img src="img/gou.png" />
+			<span class="tiaozhuan_title">恭喜您成功注册&nbsp; <span class="tiaozhuan_time"> 3 </span>s后<a href="login.html">去登录</a></span>
+		</div>
+		
+		<!--底部-->
+		<div>
+			<iframe src="weibu.html" width="100%" height="450px" scrolling="no" frameborder="0"></iframe>	
+		</div>
+			
+
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/rel.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		//换城市
+		$('.city').text(localStorage.nowCity);
+		$('.city').click(function () {
+			window.location.href = 'city.html';
+		});
+		//点击登录
+		$('#loginBtn').click(function () {
+			window.location.href = 'login.html';
+		});
+	</script>
+</html>
